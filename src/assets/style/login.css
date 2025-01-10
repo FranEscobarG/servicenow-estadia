@@ -1,0 +1,13 @@
+.login-container{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-form{
+    width: 45%;
+    min-height: 70vh;
+    border: 2px solid #57842f;
+}

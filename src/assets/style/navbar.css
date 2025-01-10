@@ -1,0 +1,81 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    border-bottom: .6rem solid #ABCF8C;
+}
+
+/* Section Styles */
+.navbar-section {
+    display: flex;
+    align-items: center;
+    height: 90%;
+}
+
+/* Left Section: Ubicación */
+.location {
+    color: #333;
+    font-size: 16px;
+}
+
+.location img {
+    height: 70%;
+}
+
+.navbar-text {
+    font-weight: bold;
+}
+
+/* Center Section: Logo */
+.logo {
+    text-align: center;
+}
+
+.navbar-logo {
+    height: 150%;
+    margin-right: 10px;
+}
+
+/* type=2 */
+.logo-center {
+    margin: auto;
+}
+.logo-center .navbar-logo{
+    height: 200%;
+}
+
+/* Right Section: Buttons */
+.buttons {
+    gap: 10px;
+}
+
+.navbar-button {
+    background-color: #fff;
+    border: 2px solid #3a7c22;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #3a7c22;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-button:hover {
+    background-color: #3a7c22;
+    color: #fff;
+}
+
+.navbar-button.register {
+    background-color: #3a7c22;
+    border: 2px solid #3a7c22;
+    color: #fff;
+}
+
+.navbar-button.register:hover {
+    background-color: #fff;
+    color: #3a7c22;
+}
