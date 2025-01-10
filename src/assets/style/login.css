@@ -7,7 +7,32 @@
 }
 
 .box-form{
-    width: 45%;
+    width: 35%;
     min-height: 70vh;
     border: 2px solid #57842f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-login{
+    width: 20%;
+    margin: 2rem 0;
+}
+
+.form input{
+    width: 90%;
+    color: #57842f;
+    font-size: 1rem;
+    border: 2px solid #94c36b;
+    border-radius: .4rem;
+    padding: 10px 5px;
+    margin-bottom: 1.5rem;
 }
