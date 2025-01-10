@@ -12,7 +12,7 @@ function LoginContent() {
                     <Input type={'email'} name={'email'} label={'Correo Electronico'} />
                     <Input type={'password'} name={'password'} label={'Contraseña'} />
 
-                    <LinkForm label={"¿Olvidó su contraseña?"} />
+                    <LinkForm label={"¿Aun no tienes una cuenta?"} path={"/register"} />
                     <ButtonForm text={"Iniciar Sesión"} />
                 </form>
             </div>

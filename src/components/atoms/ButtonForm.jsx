@@ -1,6 +1,8 @@
 function ButtonForm({text}) {
     return ( 
-        <button type="button">{text}</button>
+        <button type="button" className="btn-form">
+            {text}
+        </button>
      );
 }
 
